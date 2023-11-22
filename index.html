@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生ウェブサイト</title>
+    <script src="https://kit.fontawesome.com/1e08e647c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="social-icon">
+            <li class="home">
+                <a href="index.html">ホーム</a>
+                <i class="fa-solid fa-house"></i>
+            </li>
+            <li class="specialized-field">
+                <a href="specialized_field.html">専門分野</a>
+                <i class="fa-solid fa-book"></i>
+            </li>
+            <li class="hobby">
+                <a href="hobby.html">趣味</a>
+                <i class="fa-sharp fa-solid fa-gamepad"></i>
+            </li>
+            <li class="university">
+                <a href="https://kaishi-pu.ac.jp">開志専門職大学</a>
+                <i class="fa-sharp fa-solid fa-building-columns"></i>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="text">
+        <h2>Koutarou Soga | 曽我幸太郎</h2>
+        <p>開志専門職大学情報学部情報学科在学中</p>
+        <img src="images/face_photo.jpg" width="500">
+        <p>開志専門職大学 情報学部2年の幸太郎です。情報通信技術に興味があり、本学に入学しました。将来セキュリティエンジニアになることを夢見ています。</p>
+    </div>
+
+    <fieldset>
+        <legend>連絡先を教えてフレンド申請を送る</legend>
+        <table>
+            <tr>
+                <td bgcolor="#d3dbd5"><label for="">学生番号</label></td>
+                <td>
+                    <div class="form-item">
+                        <input type="text" size="15" placeholder="201210100">
+                        <i class="fa-solid fa-hashtag"></i>
+                    </div>
+                </td>
+                <td><label for="">県</label></td>
+                <td><select>
+                        <option>新潟県</option>
+                        <option>長野県</option>
+                        <option>福島県</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td bgcolor="#d3dbd5"><label for="">氏名</label></td>
+                <td colspan="3">
+                    <div class="form-item">
+                        <input type="text" placeholder="櫻">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#d3dbd5"><label for="">住所</label></td>
+                <td colspan="3"><textarea cols="20" rows="3" placeholder="1-2-2 中央区"></textarea></td>
+            </tr>
+            <tr>
+                <td bgcolor="#d3dbd5"><label for="">E-mail</label></td>
+                <td conlspan="3">
+                    <div class="form-item">
+                        <input type="text" placeholder="example@xxx.com">
+                        <i class="fa-duotone fa-envelope"></i>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#d3dbd5"><label for="">電話番号</label></td>
+                <td colspan="3">
+                    <div class="form-item">
+                        <input type="text" placeholder="(025)-111-1234">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <label for="">性別</label>
+        <input type="radio" name="g">男
+        <input type="radio" name="g">女
+        <input type="radio" name="g">他
+        <br><label for="">誕生日</label>
+        <input type="date" name="" id="">
+    </fieldset>
+    <fieldset>
+        <legend>理由</legend>
+        <p>友達になりたい理由を50字以上で記入してください。</p>
+        <textarea name="" id="" cols="50" rows="3"></textarea>
+        <input type="button" value="送信">
+    </fieldset>
+    <center>copyright &#xa9 2022~2026</center>
+</body>
+
+</html>
