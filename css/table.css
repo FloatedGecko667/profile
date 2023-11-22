@@ -1,0 +1,33 @@
+table {
+    border: 2px solid black;
+    margin: auto;
+    width: auto;
+    /*--表の幅--*/
+}
+
+td a {
+    color: black;
+}
+
+tr {
+    font-size: 90%;
+    text-align: center;
+    background-color: aqua;
+}
+
+td:hover {
+    background-color: rgb(217, 214, 218);
+}
+
+td:hover img {
+    box-shadow: 10px 5px 5px rgb(173, 173, 164);
+}
+
+td img {
+    background-color: white;
+    border: 2px solid black;
+}
+
+img.htb {
+    background-color: black;
+}

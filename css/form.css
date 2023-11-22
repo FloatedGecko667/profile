@@ -1,0 +1,64 @@
+input[type=text] {
+    padding: 2px 20px;
+    /*--内側の余白--*/
+    margin: 1px 0;
+    /*--内側の余白--*/
+    border-color: #4169E1;
+    /*--ボーダー線の色--*/
+    background-color: #87CEFA;
+}
+
+textarea {
+    background-color: #87CEFA;
+    border-color: #4169E1;
+    border: solid #4169E1;
+}
+
+fieldset {
+    width: 380px;
+    margin: auto;
+    padding: 20px;
+    /*--内側の余白--*/
+    border: solid 2px #00FFFF;
+    /*--ボーダー線の色--*/
+}
+
+fieldset p {
+    color: black;
+}
+
+legend {
+    padding: 8px 20px;
+    /*--内側の余白--*/
+    background-color: #4682B4;
+    /*--背景色--*/
+    color: white
+}
+
+/* チェックが入ったラジオボタン */
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px #e25bb5;
+}
+
+/* チェックが入ったチェックボックス */
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+}
+
+.form-item {
+    position: relative;
+}
+
+.form-item .fa-solid {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    color: rgb(30, 125, 155);
+}
+
+.form-item .fa-duotone {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    color: rgb(30, 125, 155);
+}

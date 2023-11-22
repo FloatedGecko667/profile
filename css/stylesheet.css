@@ -1,0 +1,90 @@
+body {
+    background: rgb(0, 70, 120);
+}
+
+nav {
+    padding-top: 5px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    justify-content: center;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fa-solid {
+    color: rgb(30, 125, 155);
+    position: absolute;
+    top: 4px;
+}
+
+.home {
+    position: relative;
+}
+
+.home .fa-solid {
+    left: -30px;
+}
+
+.specialized-field {
+    position: relative;
+}
+
+.specialized-field .fa-solid {
+    left: -28px;
+}
+
+.hobby {
+    position: relative;
+}
+
+.hobby .fa-solid {
+    left: -32px;
+}
+
+.university {
+    position: relative;
+}
+
+.university .fa-solid {
+    left: -28px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(30, 125, 155);
+    margin-right: 35px;
+}
+
+a:hover {
+    background-color: darkorange;
+    color: black;
+}
+
+.text {
+    /*float: left;*/
+    border-radius: 1em;
+    width: 500px;
+    border: 2px solid rgb(246, 42, 42);
+    padding: 10px;
+    background-color: rgb(255, 191, 0);
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(30, 125, 155);
+}
+
+p {
+    color: royalblue;
+}
